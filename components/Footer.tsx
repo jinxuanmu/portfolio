@@ -1,10 +1,17 @@
+"use client";
+
 export function Footer() {
+  const scrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="border-t border-border py-10">
       <div className="container-page flex flex-col gap-3 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
         <div>© {new Date().getFullYear()} Jinxuan Mu</div>
         <div className="flex items-center gap-4">
-          <a className="hover:text-text" href="#home">
+          <a className="hover:text-text cursor-pointer" href="#" onClick={scrollToTop}>
             Back to top
           </a>
           <a className="hover:text-text" href="/resume.pdf" download>
