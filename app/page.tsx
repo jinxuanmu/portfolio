@@ -90,7 +90,7 @@ export default function HomePage() {
 
             <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <div className="card p-6">
-                <div className="tag">AI Daily Calendar</div>
+                <div className="tag">📅 AI Daily Calendar</div>
                 <p className="mt-4 text-sm leading-relaxed text-text/85">
                   A personal project born from a simple question: what if, in the middle of a busy
                   day, you had one quiet moment?
@@ -102,10 +102,18 @@ export default function HomePage() {
                   content initiative at iHealth.
                 </p>
                 <div className="mt-5 text-sm text-muted">Published on Substack</div>
+                <a
+                  href="https://substack.com/@jinxuanmu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block text-sm font-medium text-accent transition hover:brightness-110"
+                >
+                  View on Substack →
+                </a>
               </div>
 
               <div className="card p-6">
-                <div className="tag">Jin Next — Weekly Tech Podcast</div>
+                <div className="tag">🎙 Jin Next — Weekly Tech Podcast</div>
                 <p className="mt-4 text-sm leading-relaxed text-text/85">
                   A weekly podcast covering 10 essential stories in tech, product, and startup
                   culture — delivered in under 10 minutes. Ran for 10 episodes across Spotify,
@@ -117,16 +125,32 @@ export default function HomePage() {
                   production team. Consistent weekly output.
                 </p>
                 <div className="mt-5 text-sm text-muted">10 episodes · Spotify · Apple Podcasts · YouTube</div>
+                <a
+                  href="https://podcasts.apple.com/us/podcast/jin-next/id1788849776"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block text-sm font-medium text-accent transition hover:brightness-110"
+                >
+                  Listen on Apple Podcasts →
+                </a>
               </div>
 
               <div className="card p-6">
-                <div className="tag">This Portfolio</div>
+                <div className="tag">⚡ This Portfolio</div>
                 <p className="mt-4 text-sm leading-relaxed text-text/85">
                   Built this site using Claude for content strategy and copywriting, and Cursor for
                   development. An experiment in using AI as a thought partner — not just a writing
                   assistant — to structure, prioritize, and articulate 10 years of product work.
                 </p>
                 <div className="mt-5 text-sm text-muted">Next.js · Vercel · Markdown-driven content</div>
+                <a
+                  href="https://jinxuanmu.github.io"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block text-sm font-medium text-accent transition hover:brightness-110"
+                >
+                  jinxuanmu.github.io →
+                </a>
               </div>
             </div>
           </div>
