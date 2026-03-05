@@ -42,3 +42,28 @@ Full markdown content...
 - Place images/videos in `public/images/` using the filenames referenced in the spec.
 - Put your resume at `public/resume.pdf` (linked from the nav + hero CTA).
 
+## Asset Management
+
+Case study images go in `public/images/case-studies/<project-slug>/`
+
+### Naming Convention
+| Prefix | Use | Example |
+|--------|-----|---------|
+| `screen-` | Product screenshots | `screen-gift-modal.png` |
+| `flow-` | Flow / logic diagrams | `flow-p2p-loop.png` |
+| `diagram-` | Framework / architecture | `diagram-reframe.png` |
+| `chart-` | Data charts | `chart-mau-growth.png` |
+
+- Format: `.png` preferred, `.jpg` for photos
+- Lowercase, words separated by `-`
+
+### Adding Images to a Case Study
+Update the `images[]` array in the corresponding frontmatter:
+
+```yaml
+images:
+  - /images/case-studies/zodiac/screen-feed.png
+  - /images/case-studies/zodiac/flow-viral.png
+```
+
+Images render in order. Empty array = no images shown in case study page.
