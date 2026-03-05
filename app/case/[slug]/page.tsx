@@ -9,8 +9,12 @@ export async function generateStaticParams() {
   return getCaseStudySlugs().map((slug) => ({ slug }));
 }
 
-export default async function CaseStudyPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export default async function CaseStudyPage({
+  params
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
   const cs = await getCaseStudyBySlug(slug);
   if (!cs) notFound();
 
