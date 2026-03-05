@@ -88,7 +88,7 @@ export default function HomePage() {
             <div className="section-label">BEYOND WORK</div>
             <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Side Projects</h2>
 
-            <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="projects-grid mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <div className="project-card">
                 <div className="project-icon">📅</div>
                 <div className="project-title">AI Daily Calendar</div>

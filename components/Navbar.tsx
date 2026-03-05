@@ -76,7 +76,7 @@ export function Navbar() {
         )}
 
         <div className="ml-auto flex items-center gap-6">
-          <nav className="hidden items-center gap-6 md:flex">
+          <nav className="nav-links hidden items-center gap-6 md:flex">
             {navItems.map((item) =>
               item.external ? (
                 <a
