@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: theme(colors.bg);
+  color: theme(colors.text);
+}
+
+::selection {
+  background: rgba(201, 168, 124, 0.25);
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-6xl px-5;
+}
+
+.card {
+  @apply rounded-2xl border border-border bg-card;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-medium transition;
+}
+
+.btn-primary {
+  @apply bg-accent text-bg hover:brightness-110;
+}
+
+.btn-secondary {
+  @apply border border-border bg-transparent text-text hover:bg-white/5;
+}
+
+.tag {
+  @apply inline-flex items-center rounded-full border border-border bg-white/0 px-3 py-1 text-[11px] font-medium uppercase tracking-widest text-muted;
+}
+
+.prose-warm {
+  @apply prose prose-invert max-w-none prose-p:text-text/90 prose-headings:text-text prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-strong:text-text prose-hr:border-border prose-blockquote:border-accent/60 prose-blockquote:text-text/85 prose-li:text-text/90 prose-code:text-text;
+}
+
