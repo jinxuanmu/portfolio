@@ -15,6 +15,10 @@ export type CaseStudyFrontmatter = {
   tags: string[];
   summary: string;
   coverImage: string;
+  /** Key for code-generated thumbnail (e.g. "zodiac"). Step 2 will replace placeholder. */
+  thumbnailId: string;
+  /** In-page image paths. Empty for now; Step 2 will add asset structure. */
+  images: string[];
 };
 
 export type CaseStudy = CaseStudyFrontmatter & {

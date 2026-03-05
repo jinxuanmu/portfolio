@@ -5,6 +5,8 @@ year: "2025"
 tags: ["AI", "Content Strategy", "Consumer Health"]
 summary: "Challenged a senior stakeholder's proposed solution, reframed the content problem, and grew content consumption from 27% to 43% MAU over one year — without hiring new writers."
 coverImage: "/images/ihealth-calendar-1.png"
+thumbnailId: "content-ecosystem"
+images: []
 ---
 
 ## Overview

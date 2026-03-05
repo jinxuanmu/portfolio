@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { CaseStudyThumbnail } from "@/components/CaseStudyThumbnail";
 
 export function CaseStudyCard({
   slug,
@@ -8,7 +8,7 @@ export function CaseStudyCard({
   year,
   tags,
   summary,
-  coverImage
+  thumbnailId
 }: {
   slug: string;
   title: string;
@@ -16,21 +16,15 @@ export function CaseStudyCard({
   year: string;
   tags: string[];
   summary: string;
-  coverImage: string;
+  thumbnailId: string;
 }) {
   return (
     <Link
       href={`/case/${slug}`}
       className="case-card card group overflow-hidden"
     >
-      <div className="relative aspect-[16/9] w-full overflow-hidden border-b border-border bg-black/20">
-        <Image
-          src={coverImage}
-          alt={`${title} cover`}
-          fill
-          className="object-cover opacity-90 transition duration-300 group-hover:scale-[1.02] group-hover:opacity-100"
-          sizes="(min-width: 1024px) 560px, (min-width: 768px) 50vw, 100vw"
-        />
+      <div className="w-full overflow-hidden border-b border-border">
+        <CaseStudyThumbnail id={thumbnailId} />
       </div>
       <div className="p-6">
         <div className="flex flex-wrap items-center gap-2">

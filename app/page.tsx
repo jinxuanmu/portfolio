@@ -76,7 +76,7 @@ export default function HomePage() {
                   year={cs.year}
                   tags={cs.tags}
                   summary={cs.summary}
-                  coverImage={cs.coverImage}
+                  thumbnailId={cs.thumbnailId}
                 />
               ))}
             </div>

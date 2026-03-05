@@ -53,16 +53,26 @@ export default async function CaseStudyPage({
 
         <section className="py-10">
           <div className="container-page">
-            <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-border bg-black/20">
-              <Image
-                src={cs.coverImage}
-                alt={`${cs.title} cover`}
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 960px, 100vw"
-                priority
-              />
-            </div>
+            {cs.images.length > 0 && (
+              <div className="flex flex-col gap-6">
+                {cs.images.map((src, i) => (
+                  <div
+                    key={src}
+                    className="relative w-full overflow-hidden rounded-xl"
+                  >
+                    <Image
+                      src={src}
+                      alt={`${cs.title} — image ${i + 1}`}
+                      width={960}
+                      height={540}
+                      className="h-auto w-full object-cover"
+                      sizes="(min-width: 1024px) 960px, 100vw"
+                      priority={i === 0}
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
 
             {isTencentAnimation ? (
               <div className="mt-10 card overflow-hidden">

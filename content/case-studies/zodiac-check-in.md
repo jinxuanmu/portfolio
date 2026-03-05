@@ -5,6 +5,8 @@ year: "2015"
 tags: ["UGC", "Engagement", "Viral Growth"]
 summary: "Grew a stagnant check-in feature to 200K monthly active posters by identifying a high-affinity content scenario and designing a viral distribution mechanic."
 coverImage: "/images/zodiac-checkin-home.png"
+thumbnailId: "zodiac"
+images: []
 ---
 
 ## Overview
