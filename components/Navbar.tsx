@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import clsx from "clsx";
 
 const navItems = [
-  { label: "Home", href: "#home", external: false },
+  { label: "Home", href: "#", external: false },
   { label: "Case Studies", href: "#case-studies", external: false },
   { label: "Side Projects", href: "#side-projects", external: false },
   { label: "About", href: "#about", external: false },
@@ -12,7 +14,9 @@ const navItems = [
 ] as const;
 
 export function Navbar() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -21,17 +25,26 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onAnchorNavClick = (href: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleNavClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (!href.startsWith("#")) return;
+    if (!isHome) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (href === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.history.replaceState(null, "", "#");
+      return;
+    }
 
     const targetId = href.slice(1);
     const el = document.getElementById(targetId);
-    if (!el) return;
-
-    e.preventDefault();
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
-    window.history.replaceState(null, "", href);
-  };
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.history.replaceState(null, "", href);
+    }
+  }, [isHome]);
 
   return (
     <header
@@ -41,30 +54,59 @@ export function Navbar() {
       )}
     >
       <div className="container-page flex h-16 items-center">
-        <a
-          href="#home"
-          onClick={onAnchorNavClick("#home")}
-          className="group inline-flex items-center gap-2"
-        >
-          <span className="hidden text-sm font-semibold tracking-tight sm:inline">Jinxuan Mu</span>
-          <span className="text-sm font-semibold tracking-tight sm:hidden">JM</span>
-          <span className="text-accent opacity-0 transition group-hover:opacity-100">•</span>
-        </a>
+        {isHome ? (
+          <a
+            href="#"
+            onClick={(e) => handleNavClick(e, "#")}
+            className="group inline-flex items-center gap-2 cursor-pointer"
+          >
+            <span className="hidden text-sm font-semibold tracking-tight sm:inline">Jinxuan Mu</span>
+            <span className="text-sm font-semibold tracking-tight sm:hidden">JM</span>
+            <span className="text-accent opacity-0 transition group-hover:opacity-100">•</span>
+          </a>
+        ) : (
+          <Link
+            href="/"
+            className="group inline-flex items-center gap-2 cursor-pointer"
+          >
+            <span className="hidden text-sm font-semibold tracking-tight sm:inline">Jinxuan Mu</span>
+            <span className="text-sm font-semibold tracking-tight sm:hidden">JM</span>
+            <span className="text-accent opacity-0 transition group-hover:opacity-100">•</span>
+          </Link>
+        )}
 
         <div className="ml-auto flex items-center gap-6">
           <nav className="hidden items-center gap-6 md:flex">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={item.href.startsWith("#") ? onAnchorNavClick(item.href) : undefined}
-                target={item.external ? "_blank" : undefined}
-                rel={item.external ? "noreferrer" : undefined}
-                className="inline-flex items-center py-2 text-sm text-muted transition hover:text-text"
-              >
-                {item.label}
-              </a>
-            ))}
+            {navItems.map((item) =>
+              item.external ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center py-2 text-sm text-muted transition hover:text-text cursor-pointer"
+                >
+                  {item.label}
+                </a>
+              ) : isHome ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={(e) => handleNavClick(e, item.href)}
+                  className="inline-flex items-center py-2 text-sm text-muted transition hover:text-text cursor-pointer"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href === "#" ? "/" : `/${item.href}`}
+                  className="inline-flex items-center py-2 text-sm text-muted transition hover:text-text cursor-pointer"
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
           </nav>
 
           <a

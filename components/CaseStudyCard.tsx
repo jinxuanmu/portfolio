@@ -19,7 +19,10 @@ export function CaseStudyCard({
   coverImage: string;
 }) {
   return (
-    <article className="card group overflow-hidden transition will-change-transform hover:-translate-y-1 hover:shadow-soft">
+    <Link
+      href={`/case/${slug}`}
+      className="case-card card group overflow-hidden"
+    >
       <div className="relative aspect-[16/9] w-full overflow-hidden border-b border-border bg-black/20">
         <Image
           src={coverImage}
@@ -44,16 +47,11 @@ export function CaseStudyCard({
         <h3 className="mt-4 text-xl font-bold tracking-tight text-text">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-text/80">{summary}</p>
 
-        <div className="mt-5">
-          <Link
-            href={`/case/${slug}`}
-            className="text-sm font-medium text-accent transition hover:brightness-110"
-          >
-            Read case study →
-          </Link>
+        <div className="mt-5 text-sm font-medium text-accent">
+          Read case study →
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 

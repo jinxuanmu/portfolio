@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/Navbar";
+import { HashScrollTo } from "@/components/HashScrollTo";
 import { StatCounter } from "@/components/StatCounter";
 import { CaseStudyCard } from "@/components/CaseStudyCard";
 import { Footer } from "@/components/Footer";
@@ -10,6 +11,7 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
+      <HashScrollTo />
 
       <main id="home" className="scroll-mt-24">
         <section>

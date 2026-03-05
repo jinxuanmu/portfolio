@@ -50,6 +50,19 @@ body {
   gap: 20px;
 }
 
+.case-card {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.case-card:hover {
+  border-color: rgba(201,168,124,0.25);
+  transform: translateY(-4px);
+}
+
 .section-label {
   display: inline-flex;
   align-items: center;
