@@ -32,6 +32,15 @@ export function getCaseStudySlugs(): string[] {
     .map((f) => f.replace(/\.md$/, ""));
 }
 
+const CASE_STUDY_ORDER = [
+  "zodiac-check-in",
+  "birthday-gift",
+  "holiday-events",
+  "meme-suggestions",
+  "content-ecosystem",
+  "tencent-animation"
+];
+
 export function getAllCaseStudyFrontmatter(): Array<CaseStudyFrontmatter & { slug: string }> {
   const slugs = getCaseStudySlugs();
   const all = slugs.map((slug) => {
@@ -40,8 +49,11 @@ export function getAllCaseStudyFrontmatter(): Array<CaseStudyFrontmatter & { slu
     return { slug, ...(parsed.data as CaseStudyFrontmatter) };
   });
 
-  // newest first (string years are fine here)
-  return all.sort((a, b) => Number(b.year) - Number(a.year));
+  return all.sort((a, b) => {
+    const i = CASE_STUDY_ORDER.indexOf(a.slug);
+    const j = CASE_STUDY_ORDER.indexOf(b.slug);
+    return (i === -1 ? 999 : i) - (j === -1 ? 999 : j);
+  });
 }
 
 export async function getCaseStudyBySlug(slug: string): Promise<CaseStudy | null> {

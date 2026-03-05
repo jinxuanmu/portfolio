@@ -14,7 +14,7 @@ export default function NotFound() {
             The case study you&apos;re looking for doesn&apos;t exist (or hasn&apos;t been added yet).
           </p>
           <div className="mt-6">
-            <Link className="btn btn-secondary" href="/#case-studies">
+            <Link className="btn-secondary" href="/#case-studies">
               Back to case studies
             </Link>
           </div>

@@ -68,9 +68,13 @@ export function StatCounter({
   const { ref, inView } = useInViewOnce<HTMLDivElement>();
   const parsed = useMemo(() => parseMetric(metric), [metric]);
 
+  const labelParts = label.split(" · ");
+  const mainLabel = labelParts[0]?.trim() ?? label;
+  const subLabel = labelParts.slice(1).join(" · ").trim();
+
   return (
-    <div ref={ref} className="card p-5">
-      <div className="text-3xl font-bold tracking-tight text-text">
+    <>
+      <div ref={ref} className="stat-number">
         {parsed.kind === "countup" ? (
           !inView ? (
             metric
@@ -85,8 +89,11 @@ export function StatCounter({
           parsed.display
         )}
       </div>
-      <div className="mt-2 text-sm text-muted">{label}</div>
-    </div>
+      <div className="stat-label">
+        <strong>{mainLabel}</strong>
+        {subLabel ? subLabel : null}
+      </div>
+    </>
   );
 }
 
