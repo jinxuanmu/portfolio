@@ -72,15 +72,15 @@ export function StatCounter({
     <div ref={ref} className="card p-5">
       <div className="text-3xl font-bold tracking-tight text-text">
         {parsed.kind === "countup" ? (
-          <>
-            {parsed.prefix ?? ""}
-            {inView ? (
+          !inView ? (
+            metric
+          ) : (
+            <>
+              {parsed.prefix ?? ""}
               <CountUp end={parsed.end} start={parsed.start} duration={1.2} />
-            ) : (
-              parsed.start
-            )}
-            {parsed.suffix ?? ""}
-          </>
+              {parsed.suffix ?? ""}
+            </>
+          )
         ) : (
           parsed.display
         )}

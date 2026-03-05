@@ -238,7 +238,7 @@ export default function HomePage() {
               </a>
               <div className="card p-6">
                 <div className="text-sm font-medium text-text">Email</div>
-                <div className="mt-2 text-sm text-muted">[your email]</div>
+                <div className="mt-2 text-sm text-muted">jinxuanmu1028@gmail.com</div>
               </div>
               <a className="card p-6 transition hover:-translate-y-1 hover:shadow-soft" href="/resume.pdf" download>
                 <div className="text-sm font-medium text-text">Resume</div>
