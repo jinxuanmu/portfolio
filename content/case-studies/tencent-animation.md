@@ -7,7 +7,7 @@ summary: "When product improvements alone couldn't move the needle, led a cross-
 coverImage: "/images/animation-kv.png"
 thumbnailId: "tencent-animation"
 images: 
-- /images/case-studies/tencent-animation/key-vision.jpg
+- "/images/case-studies/tencent-animation/key-vision.jpg"
 ---
 
 ## Overview

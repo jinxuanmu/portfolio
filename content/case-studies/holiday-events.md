@@ -7,7 +7,7 @@ summary: "Delivered a Christmas engagement feature for 7M users in 3 days by mak
 coverImage: "/images/holiday-events-kv.png"
 thumbnailId: "holiday"
 images: 
-- /images/case-studies/holiday/promotion-page.jpg
+- "/images/case-studies/holiday/promotion-page.jpg"
 
 ---
 
