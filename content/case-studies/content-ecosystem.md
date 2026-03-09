@@ -11,7 +11,6 @@ thumbnailId: "content-ecosystem"
 ## Overview
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
 
-![Calendar experience](/images/case-studies/content-ecosystem/calendar.png)
 
 ## Background
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
@@ -44,3 +43,4 @@ My team iterated on the AI training process: manually categorizing content acros
 ## What I learned
 When someone proposes a solution, the most important question is whether it's solving the right problem. More content wasn't the answer. A different format was. And sometimes the best product decision is to work with what you already have — just deliver it differently.
 
+![Calendar experience](/images/case-studies/content-ecosystem/calendar.png)

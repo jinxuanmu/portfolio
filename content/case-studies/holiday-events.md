@@ -11,7 +11,6 @@ thumbnailId: "holiday"
 ## Overview
 Delivered a high-impact Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call, introducing an external vendor model to stretch limited engineering resources across two simultaneous holiday initiatives.
 
-![Promotion page](/images/case-studies/holiday/promotion-page.jpg)
 
 ## Background
 Every major holiday is an engagement opportunity for social platforms — but also a resource constraint problem. In late 2015, Christmas and New Year's fell within days of each other, and we had one engineering team to support both.
@@ -40,3 +39,4 @@ Prioritizing Christmas didn't solve the engineering capacity problem — the tea
 ## What I learned
 In resource-constrained environments, the best PM decision is often not how to do everything — it's how to make the most important thing excellent. Execution capacity is a variable you can expand, not just a constraint you have to accept.
 
+![Promotion page](/images/case-studies/holiday/promotion-page.jpg)

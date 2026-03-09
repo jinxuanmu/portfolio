@@ -11,7 +11,6 @@ thumbnailId: "birthday"
 ## Overview
 Identified an underutilized data asset — birthday information held by 95% of users — and designed a virtual gifting feature that created recurring, emotionally resonant friend interactions. Achieved 50% gift send rate and 85% push CTR in A/B testing, with a monetization path validated post-launch.
 
-![User journey](/images/case-studies/birthday/user-journey.png)
 
 ## Background
 While working on the large-scale social platform, I noticed that most engagement features on QQ Space were focused on self-expression — users posting about themselves. But social platforms thrive on friend-to-friend interaction, not just broadcasting. I wanted to find a mechanism that would create genuine, recurring connections between users within the existing social graph.
@@ -54,3 +53,4 @@ The goal was to prove the behavior first, then monetize. If people wouldn't send
 ## What I learned
 Big product opportunities don't always require new technology or new behaviors. Sometimes the highest-leverage move is finding something users already care about — like a friend's birthday — and making it effortless to act on. Prove the behavior first, then build the business model around it.
 
+![User journey](/images/case-studies/birthday/user-journey.png)
