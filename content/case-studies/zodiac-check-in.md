@@ -24,7 +24,7 @@ Digging into existing user-generated content, we noticed that posts naturally cl
 We partnered with an astrologer, designed reusable visual templates, and automated daily content generation so users could share their zodiac reading with a single tap. The goal was near-zero creation friction.
 
 ## How we scaled it
-Every post was already a distribution opportunity. We added a lightweight CTA at the end of each zodiac post — "查看我的星座运势" (Check my zodiac reading) — that invited friends to check their own reading. It felt native to the content, not like an ad. Friends clicked out of curiosity, not because they were being pushed.
+Every post was already a distribution opportunity. We added a lightweight CTA at the end of each zodiac post — Check my daily horoscope — that invited friends to check their own reading. It felt native to the content, not like an ad. Friends clicked out of curiosity, not because they were being pushed.
 
 ## Results
 - 2× increase in posting frequency
