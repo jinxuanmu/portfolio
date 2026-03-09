@@ -16,7 +16,7 @@ iHealth serves chronic disease patients — primarily diabetics and hypertension
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
 
 ## The Stakeholder Challenge
- senior stakeholder proposed hiring licensed registered dietitians — credentialed professionals with name recognition — to produce more high-quality content. The reasoning was trust and authority. I pushed back. Not because the idea was wrong in principle, but because I didn't think it was solving the right problem.
+Senior stakeholder proposed hiring licensed registered dietitians — credentialed professionals with name recognition — to produce more high-quality content. The reasoning was trust and authority. I pushed back. Not because the idea was wrong in principle, but because I didn't think it was solving the right problem.
 
 Two issues with the proposal:
 - At $300–$500 per article, ROI was hard to justify with no clear path to tying content consumption to revenue
