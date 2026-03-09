@@ -216,11 +216,6 @@ export default function HomePage() {
                   I&apos;m genuinely curious about how AI is changing the way people create and
                   consume content.
                 </p>
-                <p>
-                  When I&apos;m not at a screen, I&apos;m probably planning my next trip. I once drove
-                  across South Africa for 13 days — solo itinerary, unfamiliar roads, no fixed
-                  plan. That&apos;s how I like to explore.
-                </p>
               </div>
             </div>
           </div>
