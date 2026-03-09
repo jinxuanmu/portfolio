@@ -3,7 +3,7 @@ title: "Content Ecosystem: Reframing the Problem to Drive Content Adoption"
 company: "iHealth"
 year: "2025"
 tags: ["AI", "Content Strategy", "Consumer Health"]
-summary: "Reframed the content problem from "produce more" to "make existing content easier to consume daily" — and led a team to grow content consumption from 27% to 43% MAU over one year, without hiring new writers.."
+summary: "Reframed the content problem from 'produce more to 'make existing content easier to consume daily' — and led a team to grow content consumption from 27% to 43% MAU over one year, without hiring new writers."
 coverImage: "/images/ihealth-calendar-1.png"
 thumbnailId: "content-ecosystem"
 images: []
