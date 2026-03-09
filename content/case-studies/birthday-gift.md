@@ -6,7 +6,8 @@ tags: ["Social", "Engagement", "Monetization"]
 summary: "Turned an underutilized data asset — birthday info held by 95% of users — into a peer-to-peer gifting loop with 85% push CTR and 50% send rate."
 coverImage: "/images/birthday-gift-ui.png"
 thumbnailId: "birthday"
-images: []
+images: 
+- /images/case-studies/birthday/user-journey.jpg
 ---
 
 ## Overview

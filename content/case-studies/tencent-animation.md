@@ -6,7 +6,8 @@ tags: ["Business Thinking", "Growth", "Integrated Marketing"]
 summary: "When product improvements alone couldn't move the needle, led a cross-functional campaign combining content, IP activation, and AR that drove 7.6M new users during the winter holiday season."
 coverImage: "/images/animation-kv.png"
 thumbnailId: "tencent-animation"
-images: []
+images: 
+- /images/case-studies/tencent-animation/key-vision.jpg
 ---
 
 ## Overview

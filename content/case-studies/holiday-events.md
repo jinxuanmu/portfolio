@@ -6,7 +6,9 @@ tags: ["Platform Events", "Viral Growth", "Resource Constraints"]
 summary: "Delivered a Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call under resource constraints."
 coverImage: "/images/holiday-events-kv.png"
 thumbnailId: "holiday"
-images: []
+images: 
+- /images/case-studies/holiday/promotion-page.jpg
+
 ---
 
 ## Overview
