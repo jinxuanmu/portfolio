@@ -3,15 +3,15 @@ title: "Content Ecosystem: Reframing the Problem to Drive Content Adoption"
 company: "iHealth"
 year: "2025"
 tags: ["AI", "Content Strategy", "Consumer Health"]
-summary: "Reframed the content problem from 'produce more to 'make existing content easier to consume daily' — and led a team to grow content consumption from 27% to 43% MAU over one year, without hiring new writers."
+summary: "Reframed the content problem from 'produce more' to 'make existing content easier to consume daily' — and led a team to grow content consumption from 27% to 43% MAU over one year, without hiring new writers."
 coverImage: "/images/ihealth-calendar-1.png"
 thumbnailId: "content-ecosystem"
-images: 
-- "/images/case-studies/content-ecosystem/calendar.png"
 ---
 
 ## Overview
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
+
+![Calendar experience](/images/case-studies/content-ecosystem/calendar.png)
 
 ## Background
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.

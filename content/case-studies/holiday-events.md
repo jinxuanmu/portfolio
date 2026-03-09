@@ -6,13 +6,12 @@ tags: ["Platform Events", "Viral Growth", "Resource Constraints"]
 summary: "Delivered a Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call under resource constraints."
 coverImage: "/images/holiday-events-kv.png"
 thumbnailId: "holiday"
-images: 
-- "/images/case-studies/holiday/promotion-page.jpg"
-
 ---
 
 ## Overview
 Delivered a high-impact Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call, introducing an external vendor model to stretch limited engineering resources across two simultaneous holiday initiatives.
+
+![Promotion page](/images/case-studies/holiday/promotion-page.jpg)
 
 ## Background
 Every major holiday is an engagement opportunity for social platforms — but also a resource constraint problem. In late 2015, Christmas and New Year's fell within days of each other, and we had one engineering team to support both.

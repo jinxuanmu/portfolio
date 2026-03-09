@@ -144,6 +144,9 @@ body {
 .prose-warm {
   @apply prose prose-invert max-w-none prose-p:text-text/90 prose-headings:text-text prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-strong:text-text prose-hr:border-border prose-blockquote:border-accent/60 prose-blockquote:text-text/85 prose-li:text-text/90 prose-code:text-text;
 }
+.prose-warm img {
+  @apply rounded-xl w-full h-auto object-cover;
+}
 
 #hero {
   min-height: calc(100vh - 64px);

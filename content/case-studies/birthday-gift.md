@@ -6,12 +6,12 @@ tags: ["Social", "Engagement", "Monetization"]
 summary: "Turned an underutilized data asset — birthday info held by 95% of users — into a peer-to-peer gifting loop with 85% push CTR and 50% send rate."
 coverImage: "/images/birthday-gift-ui.png"
 thumbnailId: "birthday"
-images: 
-- "/images/case-studies/birthday/user-journey.png"
 ---
 
 ## Overview
 Identified an underutilized data asset — birthday information held by 95% of users — and designed a virtual gifting feature that created recurring, emotionally resonant friend interactions. Achieved 50% gift send rate and 85% push CTR in A/B testing, with a monetization path validated post-launch.
+
+![User journey](/images/case-studies/birthday/user-journey.png)
 
 ## Background
 While working on the large-scale social platform, I noticed that most engagement features on QQ Space were focused on self-expression — users posting about themselves. But social platforms thrive on friend-to-friend interaction, not just broadcasting. I wanted to find a mechanism that would create genuine, recurring connections between users within the existing social graph.

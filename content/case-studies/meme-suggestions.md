@@ -6,7 +6,6 @@ tags: ["UGC", "Content", "User Experience"]
 summary: "Eliminated the friction between users and meme culture — bringing an external behavior in-product and driving 2M+ daily feature page views."
 coverImage: "/images/meme-suggestions-ui.png"
 thumbnailId: "meme"
-images: []
 ---
 
 ## Overview

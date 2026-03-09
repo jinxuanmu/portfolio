@@ -6,12 +6,11 @@ tags: ["Business Thinking", "Growth", "Integrated Marketing"]
 summary: "When product improvements alone couldn't move the needle, led a cross-functional campaign combining content, IP activation, and AR that drove 7.6M new users during the winter holiday season."
 coverImage: "/images/animation-kv.png"
 thumbnailId: "tencent-animation"
-images: 
-- "/images/case-studies/tencent-animation/key-vision.jpg"
 ---
 
 ## Overview
 When user growth plateaued on Tencent's animation platform, I identified that product improvements alone couldn't solve the problem — and led a cross-functional campaign combining content strategy, IP marketing, and AR activation that brought in 7.6M new users and peaked DAU at 5M+ during the 2018 winter holiday season.
+
 
 ## Background
 Tencent Animation was China's largest anime platform, but growth was slowing. Competitors like Kuai Kan Manhua were gaining ground. The winter holiday season — when students had the most free time — represented the highest-leverage window to reactivate lapsed users and acquire new ones. The challenge wasn't the product itself. The challenge was awareness and activation — getting the right users to show up during a critical window.
@@ -42,3 +41,4 @@ Designed and led a multi-channel integrated campaign with two audience tracks:
 ## What I learned
 Product and marketing are not separate functions — they're different levers on the same problem. When product improvements alone can't move the needle, the right move is to zoom out and ask what combination of tools will actually work. As a PM, knowing when to pull non-product levers is just as important as knowing how to build features. The post-campaign retrospective also identified gaps in user retention — a reminder that acquisition without retention is a leaky bucket.
 
+![Campaign key vision](/images/case-studies/tencent-animation/key-vision.jpg)

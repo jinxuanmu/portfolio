@@ -6,12 +6,12 @@ tags: ["UGC", "Engagement", "Viral Growth"]
 summary: "Grew a stagnant check-in feature to 200K monthly active posters by identifying a high-affinity content scenario and designing a viral distribution mechanic."
 coverImage: "/images/zodiac-checkin-home.png"
 thumbnailId: "zodiac"
-images: 
-- "/images/case-studies/zodiac/screen-zodiac.png"
 ---
 
 ## Overview
 Grew a stagnant check-in feature to 200K monthly active posters by identifying a high-affinity content scenario and designing a viral distribution mechanic — reactivating 25% of previously silent users in the process.
+
+![Zodiac check-in screen](/images/case-studies/zodiac/screen-zodiac.png)
 
 ## Background
 QQ Space was facing a broader platform engagement challenge. After analyzing user behavior, we identified posting frequency as the highest-leverage metric to focus on — if we could get more users posting more often, overall engagement would follow.
