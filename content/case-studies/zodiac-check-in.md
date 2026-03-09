@@ -7,7 +7,7 @@ summary: "Grew a stagnant check-in feature to 200K monthly active posters by ide
 coverImage: "/images/zodiac-checkin-home.png"
 thumbnailId: "zodiac"
 images: 
-	- public/images/case-studies/scree-zodiac.png
+- public/images/case-studies/screen-zodiac.png
 ---
 
 ## Overview
