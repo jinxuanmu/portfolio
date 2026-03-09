@@ -7,7 +7,7 @@ summary: "Turned an underutilized data asset — birthday info held by 95% of us
 coverImage: "/images/birthday-gift-ui.png"
 thumbnailId: "birthday"
 images: 
-- "/images/case-studies/birthday/user-journey.jpg"
+- "/images/case-studies/birthday/user-journey.png"
 ---
 
 ## Overview

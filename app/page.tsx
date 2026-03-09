@@ -45,10 +45,10 @@ export default function HomePage() {
                 <StatCounter metric="2×" label="Posting frequency · Tencent QQ Space" />
               </div>
               <div className="stat-item">
-                <StatCounter metric="25%" label="Were previously silent users · Tencent" />
+                <StatCounter metric="25%" label="Were previously silent users · Tencent QQ Space" />
               </div>
               <div className="stat-item">
-                <StatCounter metric="7M" label="Participants in 2-day launch · Tencent" />
+                <StatCounter metric="7M" label="Participants in 2-day launch · Tencent Animation" />
               </div>
               <div className="stat-item">
                 <StatCounter metric="27→43%" label="Content MAU · iHealth" />
