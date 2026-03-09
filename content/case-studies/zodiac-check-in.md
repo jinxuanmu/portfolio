@@ -11,8 +11,6 @@ thumbnailId: "zodiac"
 ## Overview
 Grew a stagnant check-in feature to 200K monthly active posters by identifying a high-affinity content scenario and designing a viral distribution mechanic — reactivating 25% of previously silent users in the process.
 
-![Zodiac check-in screen](/images/case-studies/zodiac/screen-zodiac.png)
-
 ## Background
 QQ Space was facing a broader platform engagement challenge. After analyzing user behavior, we identified posting frequency as the highest-leverage metric to focus on — if we could get more users posting more often, overall engagement would follow.
 
@@ -35,3 +33,4 @@ Every post was already a distribution opportunity. We added a lightweight CTA at
 ## What I learned
 The most effective engagement features don't invent new behaviors — they find what users are already inclined to do and remove every obstacle in the way. And distribution doesn't have to come from marketing. If the content itself carries a natural reason to share, growth follows organically.
 
+![Zodiac check-in screen](/images/case-studies/zodiac/screen-zodiac.png)
