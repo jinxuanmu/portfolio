@@ -3,14 +3,14 @@ title: "Holiday Engagement: Prioritizing Fast, Making It Count"
 company: "Tencent · QQ Space"
 year: "2015"
 tags: ["Platform Events", "Viral Growth", "Resource Constraints"]
-summary: "Delivered a Christmas engagement feature for 7M users in 2 days by making a deliberate prioritization call under resource constraints."
+summary: "Delivered a Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call under resource constraints."
 coverImage: "/images/holiday-events-kv.png"
 thumbnailId: "holiday"
 images: []
 ---
 
 ## Overview
-Delivered a high-impact Christmas engagement feature for 7M users in 2 days by making a deliberate prioritization call, introducing an external vendor model to stretch limited engineering resources across two simultaneous holiday initiatives.
+Delivered a high-impact Christmas engagement feature for 7M users in 3 days by making a deliberate prioritization call, introducing an external vendor model to stretch limited engineering resources across two simultaneous holiday initiatives.
 
 ## Background
 Every major holiday is an engagement opportunity for social platforms — but also a resource constraint problem. In late 2015, Christmas and New Year's fell within days of each other, and we had one engineering team to support both.
@@ -29,7 +29,7 @@ Prioritizing Christmas didn't solve the engineering capacity problem — the tea
 - 3 Santa Claus duo-dance video templates
 - Users could upload photos of themselves and friends to be composited into the video
 - Shareable with @ tagging, enabling friends to participate and create their own versions
-- Launched in 2 days using HTML5
+- Launched in 3 days using HTML5
 
 ## Results
 - 7M users participated

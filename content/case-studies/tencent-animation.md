@@ -22,12 +22,12 @@ A purely product-driven approach wouldn't be enough. We needed to meet users whe
 Designed and led a multi-channel integrated campaign with two audience tracks:
 
 *For existing anime users:*
-- "贺岁嗨更季" content campaign: premium content free updates + curated title lists
-- 慕星社 (top manga authors) platform debut, with animated ads reaching B站 homepage
-- 苏苏上春晚: IP character 涂山苏苏 appeared live on 浙江卫视 Spring Gala via AR
+- "Happy New Year Content Season" campaign: premium content free updates + curated title lists
+- Top manga authors' platform debut, with animated ads reaching Bilibili homepage
+- IP character Tu Shan Susu appeared live on Zhejiang TV Spring Gala via AR
 
 *For mainstream/casual users:*
-- Cross-brand marketing with 捉妖记2 (Monster Hunt 2): resource exchange including 220K cinema pre-roll slots, theater posters, and film end credits
+- Cross-brand marketing with *Monster Hunt 2* (Chinese live-action fantasy film): resource exchange including 220K cinema pre-roll slots, theater posters, and film end credits
 - Weibo topic campaign reaching 310M total views
 - AR creative ad integration — first-ever AR mid-show insert on a major TV gala
 

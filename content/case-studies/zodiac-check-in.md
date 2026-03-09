@@ -6,7 +6,8 @@ tags: ["UGC", "Engagement", "Viral Growth"]
 summary: "Grew a stagnant check-in feature to 200K monthly active posters by identifying a high-affinity content scenario and designing a viral distribution mechanic."
 coverImage: "/images/zodiac-checkin-home.png"
 thumbnailId: "zodiac"
-images: []
+images: 
+	- public/images/case-studies/scree-zodiac.png
 ---
 
 ## Overview
@@ -18,8 +19,6 @@ QQ Space was facing a broader platform engagement challenge. After analyzing use
 ## Insight
 Digging into existing user-generated content, we noticed that posts naturally clustered around a few recurring topics — zodiac, mood, hobbies, and daily life. These weren't random. They were topics users already cared about, with low creative barrier. Instead of asking users to come up with something original, we could build around scenarios they were already drawn to. We chose zodiac as our first focus. It had consistently high organic engagement, it was repeatable — users could post about it daily — and it required almost no effort to participate.
 
-## What we tried — and what failed
-We also explored mood-based check-ins. The idea was to let users express emotions through interactive 3D emoji balls that responded to the phone's gravity sensor. In controlled testing, iOS users on Wi-Fi showed a 50% improvement in conversion. But the broader rollout told a different story: many Android devices lacked the required sensor, and on 4G networks the heavy 3D assets loaded too slowly. Overall conversion dropped. The concept was right — the execution didn't match the reality of our user base.
 
 ## What we built
 We partnered with an astrologer, designed reusable visual templates, and automated daily content generation so users could share their zodiac reading with a single tap. The goal was near-zero creation friction.

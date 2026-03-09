@@ -3,20 +3,20 @@ title: "Content Ecosystem: Reframing the Problem to Drive Content Adoption"
 company: "iHealth"
 year: "2025"
 tags: ["AI", "Content Strategy", "Consumer Health"]
-summary: "Challenged a senior stakeholder's proposed solution, reframed the content problem, and grew content consumption from 27% to 43% MAU over one year — without hiring new writers."
+summary: "Reframed the content problem from "produce more" to "make existing content easier to consume daily" — and led a team to grow content consumption from 27% to 43% MAU over one year, without hiring new writers.."
 coverImage: "/images/ihealth-calendar-1.png"
 thumbnailId: "content-ecosystem"
 images: []
 ---
 
 ## Overview
-Challenged a senior stakeholder's proposed solution, reframed the content problem from "produce more" to "make existing content easier to consume daily" — growing content consumption among MAU from 27% to 43% over one year through iterative improvements across distribution, operations, and format innovation.
+iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
 
 ## Background
 iHealth serves chronic disease patients — primarily diabetics and hypertension patients — helping them make lifestyle changes between doctor visits. We had built a library of 600+ long-form articles, but only 27% of monthly active users were consuming at least one piece of content per month. The goal was to increase that number for both clinical outcomes and revenue.
 
 ## The Stakeholder Challenge
-The head of R&D proposed hiring licensed registered dietitians — credentialed professionals with name recognition — to produce more high-quality content. The reasoning was trust and authority. I pushed back. Not because the idea was wrong in principle, but because I didn't think it was solving the right problem.
+ senior stakeholder proposed hiring licensed registered dietitians — credentialed professionals with name recognition — to produce more high-quality content. The reasoning was trust and authority. I pushed back. Not because the idea was wrong in principle, but because I didn't think it was solving the right problem.
 
 Two issues with the proposal:
 - At $300–$500 per article, ROI was hard to justify with no clear path to tying content consumption to revenue
@@ -28,12 +28,12 @@ The real problem wasn't content quality. It was content fatigue. More long artic
 Instead of asking "how do we produce more content?", I asked "how do we make content easier to consume every day?" The insight came from looking at what was already working. We had 600+ articles full of useful information — the problem was the format, not the substance.
 
 ## What we did
-Over the course of a year, we improved content adoption through multiple initiatives:
+Over the course of a year, working closely with my team, we improved content adoption through multiple initiative:
 - Optimized push notifications and banner CTR to improve content discovery
 - Pivoted content categories from educational to lifestyle-focused topics
 - Used AI to extract single actionable tips from existing articles, paired each tip with a relevant quote, and packaged it as a daily calendar card — one tip per day, visual format, simple and shareable
 
-The AI training process required iteration: manually categorized content across five dimensions (measurement, diet, exercise, sleep, stress), provided the model with ten examples per category, then let it scale. Launched for English-language users first, validated through A/B test before full rollout.
+My team iterated on the AI training process: manually categorizing content across five dimensions (measurement, diet, exercise, sleep, stress), providing the model with ten examples per category, then letting it scale. We launched for English-language users first, validated through A/B test before full rollout.
 
 ## Results
 - Content consumption among MAU grew from 27% to 43% over one year

@@ -13,7 +13,7 @@ images: []
 Identified an underutilized data asset — birthday information held by 95% of users — and designed a virtual gifting feature that created recurring, emotionally resonant friend interactions. Achieved 50% gift send rate and 85% push CTR in A/B testing, with a monetization path validated post-launch.
 
 ## Background
-While working on Zodiac Check-In, I noticed that most engagement features on QQ Space were focused on self-expression — users posting about themselves. But social platforms thrive on friend-to-friend interaction, not just broadcasting. I wanted to find a mechanism that would create genuine, recurring connections between users within the existing social graph.
+While working on the large-scale social platform, I noticed that most engagement features on QQ Space were focused on self-expression — users posting about themselves. But social platforms thrive on friend-to-friend interaction, not just broadcasting. I wanted to find a mechanism that would create genuine, recurring connections between users within the existing social graph.
 
 ## Insight
 Digging into platform data, I found that 95% of users had valid birthday information on their profiles — a high-coverage, emotionally rich dataset that wasn't being used for anything. At the same time, notification data told a clear story:
@@ -38,14 +38,14 @@ There was internal debate about whether gifts should be paid or free. Some argue
 The goal was to prove the behavior first, then monetize. If people wouldn't send free gifts, they certainly wouldn't pay for them.
 
 ## What we built
-- In-app birthday reminders + T-1 push notification ("Your friends have birthdays tomorrow")
+- In-app birthday reminders + T-3 push notification ("Your friends have birthdays in three days")
 - Friend birthday list with pre-selected recipients — users could review and uncheck
 - Curated gift gallery: animated cakes, flowers, toys
-- Gift-sending animation + return gift mechanic, designed around 礼尚往来 (reciprocity)
+- Gift-sending animation + return gift mechanic, designed around reciprocity
 - Post-launch: introduced premium gifts with full-screen animation effects for paid users
 
 ## Results
-- 50% of users sent at least one gift during A/B test
+- 50% of users sent at least one gift during testing
 - 85% push CTR — far above the 30–40% baseline
 - 60% of recipients sent a return gift, validating the reciprocity mechanic
 - Monetization layer added post-launch with premium animated gifts for paid users
